@@ -1,5 +1,8 @@
+"""Модуль CLI."""
 import prompt
 
+
 def welcome_user():
-    name = prompt.string("May I have your name? ")
-    print(f"Hello, {name}!")
+    """Спрашиваем имя пользователя и приветствуем его."""
+    name = prompt.string('May I have your name? ')
+    print('Hello, {0}!'.format(name))

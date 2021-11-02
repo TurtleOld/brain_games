@@ -9,16 +9,19 @@ description = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
 
 
 def welcome_user():
+    """Приветствие."""
     print("Welcome to the Brain Games!")
 
 
 def get_user_name():
+    """Спрашиваем имя у пользователя и говорим ему привет."""
     user_name = prompt.string("May I have your name? ")
     print("Hello, {0}".format(user_name))
     return user_name
 
 
 def is_even(question):
+    """Функция на проверку чётности."""
     if question % 2 == 0:
         answer = "yes"
     else:
@@ -27,6 +30,7 @@ def is_even(question):
 
 
 def get_game_even():
+    """Функция игры."""
     welcome_user()
     user_name = get_user_name()
     print(description)

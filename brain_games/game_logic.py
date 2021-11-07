@@ -1,5 +1,5 @@
 """Logic games."""
-
+# !/usr/bin/env python
 import prompt
 
 count_round = 3

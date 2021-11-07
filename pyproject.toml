@@ -3,7 +3,7 @@ name = "hexlet-code"
 version = "1.0.0"
 description = "Five the brain games by Alexander Pavlov"
 classifiers = [
-    "Topic :: Software Development :: Brain Games"
+    "Topic :: Software Development :: Brain Games",
 ]
 repository = "https://github.com/TurtleOld/python-project-lvl1"
 authors = ["TurtleOld <shurpo.alexander@gmail.com>"]

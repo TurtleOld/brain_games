@@ -16,5 +16,6 @@ def get_game_round():
         if i == hidden_index:
             progression = '{0} ..'.format(progression)
         else:
-            progression = '{0} {1}'.format(progression, start_position + step * i)
+            progression = '{0} {1}'.format(progression,
+                                           start_position + step * i)
     return str(progression.strip()), str(answer)

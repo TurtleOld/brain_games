@@ -4,7 +4,7 @@ from brain_games.games import brain_even
 
 
 def main():
-    """Запускаем игру."""
+    """Запускаем игру Проверка на чётность."""
     get_logic_of_games(brain_even)
 
 

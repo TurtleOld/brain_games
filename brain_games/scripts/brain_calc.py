@@ -4,7 +4,7 @@ from brain_games.games import brain_calc
 
 
 def main():
-    """Запускаем игру."""
+    """Запускаем игру Калькулятор."""
     get_logic_of_games(brain_calc)
 
 

@@ -4,7 +4,7 @@ from brain_games.games import brain_progression
 
 
 def main():
-    """Запускаем игру."""
+    """Запускаем игру Арифметическая прогрессия."""
     get_logic_of_games(brain_progression)
 
 

@@ -4,7 +4,7 @@ from brain_games.games import brain_gcd
 
 
 def main():
-    """Запускаем игру."""
+    """Запускаем игру по нахождению наибольшего общего делителя."""
     get_logic_of_games(brain_gcd)
 
 

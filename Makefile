@@ -13,7 +13,7 @@ publish:
 package-install:
 		python3 -m pip install dist/*.whl
 package-uninstall:
-		python3 -m pip uninstall dist/*.whl
+		python3 -m pip uninstall dist/*.whl -y
 
 lint:
 		poetry run flake8 brain_games

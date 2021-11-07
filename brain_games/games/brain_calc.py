@@ -1,26 +1,23 @@
 """Game: Calculator."""
-from random import randint
+from random import choice, randint
 
-import prompt
-
-count_round = 3
-start_random = 1
-end_random = 10
-description = 'Answer \"yes\" if the number is even, otherwise answer \"no\".'
+start_number = 1
+end_number = 100
+game_description = 'What is the result of the expression?'
 
 
-def welcome_user():
-    """Приветствие."""
-    print('Welcome to the Brain Games!')
-
-
-def get_user_name():
-    """Спрашиваем имя у пользователя и говорим ему привет."""
-    user_name = prompt.string('May I have your name? ')
-    print('Hello, {0}'.format(user_name))
-    return user_name
-
-
-def get_game_calc():
-    welcome_user()
-    user_name = get_user_name()
+def get_game_round():
+    """Функция игры."""
+    random_num1 = randint(start_number, end_number)
+    random_num2 = randint(start_number, end_number)
+    symbols = ['+', '-', '*']
+    random_symbols = choice(symbols)
+    question = '{0} {1} {2}'.format(random_num1, random_symbols, random_num2)
+    answer = ''
+    if random_symbols == '+':
+        answer = random_num1 + random_num2
+    elif random_symbols == '-':
+        answer = random_num1 - random_num2
+    elif random_symbols == '*':
+        answer = random_num1 * random_num2
+    return str(question), str(answer)

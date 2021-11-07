@@ -8,5 +8,5 @@ def main():
     get_logic_of_games(brain_gcd)
 
 
-if __name__ == '__main':
+if __name__ == '__main__':
     main()

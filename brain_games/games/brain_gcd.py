@@ -1,4 +1,4 @@
-"""Game: Calculator."""
+"""Game: GCD."""
 from random import randint
 
 start_number = 1

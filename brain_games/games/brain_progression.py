@@ -1,4 +1,4 @@
-"""Game: Calculator."""
+"""Game: Progression."""
 from random import randint
 
 length_progression = 10

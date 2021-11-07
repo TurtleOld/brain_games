@@ -31,4 +31,4 @@ def get_logic_of_games(game):
         else:
             print("{0} is wrong answer ;(. Correct answer was {1}.\nLet\'s try again, {2}!".format(user_answer, answer, user_name))
             return
-    print('Congratulation, {0}!'.format(user_name))
+    print('Congratulations, {0}!'.format(user_name))

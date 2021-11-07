@@ -1,7 +1,11 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.5.0"
-description = ""
+version = "1.0.0"
+description = "Five the brain games by Alexander Pavlov"
+classifiers = [
+    "Topic :: Software Development :: Brain Games"
+]
+repository = ["https://github.com/TurtleOld/python-project-lvl1"]
 authors = ["TurtleOld <shurpo.alexander@gmail.com>"]
 packages = [
     { include = "brain_games" },

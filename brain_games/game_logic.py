@@ -21,7 +21,7 @@ def get_logic_of_games(game):
     """Логика игры."""
     welcome_user()
     user_name = get_user_name()
-    print(game.game_description)
+    print(game.GAME_DESCRIPTION)
     for i in range(count_round):
         question, answer = game.get_game_round()
         print('Question: {0}'.format(question))

@@ -3,7 +3,7 @@ from random import randint
 
 start_number = 1
 end_number = 100
-game_description = 'Find the greatest common divisor of given numbers'
+GAME_DESCRIPTION = 'Find the greatest common divisor of given numbers'
 
 
 def get_game_round():

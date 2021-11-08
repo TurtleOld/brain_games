@@ -1,7 +1,7 @@
 """Game: Calculator."""
 from random import randint
 
-game_description = 'Answer \"yes\" if given number is prime. ' \
+GAME_DESCRIPTION = 'Answer \"yes\" if given number is prime. ' \
                    'Otherwise answer \"no\"'
 start_number = 2
 end_number = 100

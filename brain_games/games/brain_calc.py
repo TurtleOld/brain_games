@@ -3,7 +3,7 @@ from random import choice, randint
 
 start_number = 1
 end_number = 100
-game_description = 'What is the result of the expression?'
+GAME_DESCRIPTION = 'What is the result of the expression?'
 
 
 def get_game_round():

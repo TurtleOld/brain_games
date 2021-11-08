@@ -2,7 +2,7 @@
 from random import randint
 
 length_progression = 10
-game_description = 'What number is missing in the progression?'
+GAME_DESCRIPTION = 'What number is missing in the progression?'
 
 
 def get_game_round():

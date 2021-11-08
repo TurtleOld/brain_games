@@ -3,6 +3,37 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/f190ea9be7f732331bb2/maintainability)](https://codeclimate.com/github/TurtleOld/python-project-lvl1/maintainability)
 [![Actions Status](https://github.com/TurtleOld/python-project-lvl1/workflows/brain-games/badge.svg)](https://github.com/TurtleOld/python-project-lvl1/actions)
 
+# Welcome to Brain Games
+
+###### *Данный проект реализован в рамках обучения на платформе* [Hexlet](https://ru.hexlet.io/)
+
+В проекте содержатся 5 игр: 
+1. Проверка на чётность (brain-even)
+2. Калькулятор (brain-calc)
+3. Наибольший общий делитель (brain-gcd)
+4. Арифметическая прогрессия (brain-progression)
+5. Проверка числа на простоту (brain-prime)
+
+
+### Как начать играть?
+Склонируйте себе на локальную машину проект командой
+
+`git clone https://github.com/TurtleOld/python-project-lvl1.git`
+
+*На вашем компьютере должен быть установлен Poetry*
+
+*Чтобы проверить, выполните команду `poetry --version`*
+
+*Если не установлен, ознакомтесь с официальной [документацией](https://python-poetry.org/docs/) по установке.*
+
+Перейдите в папку с проектом `cd python-project-lvl1`
+
+Выполните команды поочередно `make install`, `make package-install`
+
+После этого можете запускать игры.
+
+Демонстрация работы каждой игры можно посмотреть ниже.
+
 
 ## Game: brain-even asciinema
 [![asciicast](https://asciinema.org/a/447572.svg)](https://asciinema.org/a/447572)

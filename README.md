@@ -16,7 +16,7 @@
 
 
 ### Как начать играть?
-Склонируйте себе на локальную машину проект командой
+Склонируйте себе на локальную машину проект командой:
 
 `git clone https://github.com/TurtleOld/python-project-lvl1.git`
 
@@ -32,20 +32,23 @@
 
 После этого можете запускать игры.
 
-Демонстрация работы каждой игры можно посмотреть ниже.
+Минимальные требования для запуска пакета с играми:
+
+
+Демонстрация работы каждой игры можно посмотреть ниже, в соответствующих, коротких видеороликах.
 
 
 ## Game: brain-even asciinema
-[![asciicast](https://asciinema.org/a/447572.svg)](https://asciinema.org/a/447572)
+[![asciicast](https://asciinema.org/a/447807.svg)](https://asciinema.org/a/447807)
 
 ## Game: brain-calc asciinema
-[![asciicast](https://asciinema.org/a/447575.svg)](https://asciinema.org/a/447575)
+[![asciicast](https://asciinema.org/a/447810.svg)](https://asciinema.org/a/447810)
 
 ## Game: brain-gcd asciinema
-[![asciicast](https://asciinema.org/a/447576.svg)](https://asciinema.org/a/447576)
+[![asciicast](https://asciinema.org/a/447812.svg)](https://asciinema.org/a/447812)
 
 ## Game: brain-progression asciinema
-[![asciicast](https://asciinema.org/a/447578.svg)](https://asciinema.org/a/447578)
+[![asciicast](https://asciinema.org/a/447813.svg)](https://asciinema.org/a/447813)
 
 ## Game: brain-prime asciinema
-[![asciicast](https://asciinema.org/a/447580.svg)](https://asciinema.org/a/447580)
+[![asciicast](https://asciinema.org/a/447814.svg)](https://asciinema.org/a/447814)

@@ -2,7 +2,7 @@
 # !/usr/bin/env python
 import prompt
 
-count_round = 3
+ROUNDS_COUNT = 3
 
 
 def welcome_user():
@@ -17,8 +17,8 @@ def get_user_name():
     return user_name
 
 
-def get_logic_of_games(game):
-    """Логика игры."""
+def get_engine_of_games(game):
+    """Движок игры."""
     welcome_user()
     user_name = get_user_name()
     print(game.GAME_DESCRIPTION)

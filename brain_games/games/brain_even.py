@@ -1,15 +1,15 @@
 """Игра: Проверка на чётность."""
 from random import randint
 
-start_number = 1
-end_number = 10
+START_NUMBER = 1
+END_NUMBER = 10
 GAME_DESCRIPTION = 'Answer \"yes\" if the number is even, ' \
                    'otherwise answer \"no\".'
 
 
 def get_game_round():
     """Функция игры."""
-    random_num = randint(start_number, end_number)
+    random_num = randint(START_NUMBER, END_NUMBER)
     if random_num % 2 == 0:
         answer = 'yes'
     else:

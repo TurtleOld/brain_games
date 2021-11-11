@@ -1,5 +1,5 @@
 """Скрипт запуска игры: Арифметическая прогрессия."""
-from brain_games.games_engine import get_engine_of_games
+from brain_games.game_engine import get_engine_of_games
 from brain_games.games import brain_progression
 
 

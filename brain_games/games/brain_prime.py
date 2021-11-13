@@ -13,7 +13,7 @@ def get_game_round():
     random_number = randint(START_NUMBER, END_NUMBER)
     for i in range(2, random_number // 2 + 1):
         if random_number % i == 0:
-            number += 1
+            number = 1
     if number <= 0:
         answer = 'yes'
     else:

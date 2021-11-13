@@ -22,7 +22,7 @@ def get_engine_of_games(game):
     welcome_user()
     user_name = get_user_name()
     print(game.GAME_DESCRIPTION)
-    for i in range(count_round):
+    for i in range(ROUNDS_COUNT):
         question, answer = game.get_game_round()
         print('Question: {0}'.format(question))
         user_answer = prompt.string('Your answer: ')

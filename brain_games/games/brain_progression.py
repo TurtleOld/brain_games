@@ -6,6 +6,7 @@ GAME_DESCRIPTION = 'What number is missing in the progression?'
 
 
 def get_progression(start_element, step, hidden_index):
+    """Получение строкого представления прогрессии"""
     progression = ''
     for i in range(LENGTH_PROGRESSION):
         if i == hidden_index:

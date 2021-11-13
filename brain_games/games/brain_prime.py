@@ -10,9 +10,9 @@ END_NUMBER = 100
 def is_prime(random_number):
     for i in range(2, random_number // 2 + 1):
         if random_number % 2 == 0:
-            return True
-        else:
             return False
+        else:
+            return True
 
 
 def get_game_round():

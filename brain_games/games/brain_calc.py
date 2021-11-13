@@ -13,7 +13,6 @@ def get_game_round():
     symbols = ['+', '-', '*']
     random_symbol = choice(symbols)
     question = '{0} {1} {2}'.format(random_num1, random_symbol, random_num2)
-    answer = 0
     if random_symbol == '+':
         answer = random_num1 + random_num2
     elif random_symbol == '-':

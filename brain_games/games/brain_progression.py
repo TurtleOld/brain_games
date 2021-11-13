@@ -6,7 +6,7 @@ GAME_DESCRIPTION = 'What number is missing in the progression?'
 
 
 def get_progression(start_element, step, hidden_index):
-    """Получение строкого представления прогрессии"""
+    """Получение строкого представления прогрессии."""
     progression = ''
     for i in range(LENGTH_PROGRESSION):
         if i == hidden_index:
@@ -24,7 +24,5 @@ def get_game_round():
     hidden_index = randint(0, LENGTH_PROGRESSION - 1)
 
     question = get_progression(start_position, step, hidden_index)
-    print(question)
     answer = start_position + step * hidden_index
-    print(answer)
     return str(question), str(answer)

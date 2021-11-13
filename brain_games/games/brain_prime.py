@@ -8,11 +8,14 @@ END_NUMBER = 100
 
 
 def is_prime(random_number):
+    number = 0
     for i in range(2, random_number // 2 + 1):
         if random_number % i == 0:
-            answer = 'yes'
-        else:
-            answer = 'no'
+            number = 1
+    if number <= 0:
+        answer = 'yes'
+    else:
+        answer = 'no'
     return answer
 
 

@@ -9,14 +9,15 @@ GAME_DESCRIPTION = 'Answer \"yes\" if the number is even, ' \
 
 def is_even(random_number):
     if random_number % 2 == 0:
-        return True
+        answer = 'yes'
     else:
-        return False
+        answer = 'no'
+    return answer
 
 
 def get_game_round():
     """Функция игры."""
     random_number = randint(START_NUMBER, END_NUMBER)
-    answer = 'yes' if is_even(random_number) else 'no'
+    answer = is_even(random_number)
 
     return random_number, answer

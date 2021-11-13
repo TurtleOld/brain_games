@@ -9,15 +9,16 @@ END_NUMBER = 100
 
 def is_prime(random_number):
     for i in range(2, random_number // 2 + 1):
-        if random_number % 2 == 0:
-            return False
+        if random_number % i == 0:
+            answer = 'yes'
         else:
-            return True
+            answer = 'no'
+    return answer
 
 
 def get_game_round():
     """Функция игры."""
     random_number = randint(START_NUMBER, END_NUMBER)
-    answer = 'yes' if is_prime(random_number) else 'no'
+    answer = is_prime(random_number)
 
     return str(random_number), str(answer)

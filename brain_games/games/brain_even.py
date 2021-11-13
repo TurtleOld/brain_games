@@ -8,6 +8,7 @@ GAME_DESCRIPTION = 'Answer \"yes\" if the number is even, ' \
 
 
 def is_even(random_number):
+    """Проверка на чётность."""
     if random_number % 2 == 0:
         answer = 'yes'
     else:

@@ -5,24 +5,31 @@ LENGTH_PROGRESSION = 10
 GAME_DESCRIPTION = 'What number is missing in the progression?'
 
 
-def get_progression(start_element, step, hidden_index):
-    """Получение строкого представления прогрессии."""
-    progression = ''
+def get_progression(initial_element, diff):
+    """Получение прогрессии."""
+    member, progression = initial_element, [initial_element]
     for i in range(LENGTH_PROGRESSION):
-        if i == hidden_index:
-            progression = '{0} ..'.format(progression)
-        else:
-            progression = '{0} {1}'.format(progression,
-                                           start_element + step * i)
-    return progression.strip()
+        member += diff
+        progression.append(member)
+    return progression
+
+
+def get_string_from_progression(progression, hidden_element):
+    """Получение строкового представления прогрессии."""
+    string_progression = []
+    for index in range(0, LENGTH_PROGRESSION):
+        string_progression.append(str(progression[index]))
+    string_progression[hidden_element] = '..'
+    return " ".join(string_progression)
 
 
 def get_game_round():
     """Функция игры."""
-    start_position = randint(1, 10)
-    step = randint(2, 10)
-    hidden_index = randint(0, LENGTH_PROGRESSION - 1)
+    initial_element = randint(1, LENGTH_PROGRESSION)
+    diff = randint(2, LENGTH_PROGRESSION)
+    hidden_element = randint(0, LENGTH_PROGRESSION - 1)
 
-    question = get_progression(start_position, step, hidden_index)
-    answer = start_position + step * hidden_index
-    return str(question), str(answer)
+    answer = get_progression(initial_element, diff)
+    question = get_string_from_progression(answer, hidden_element)
+    
+    return str(question), str(answer[hidden_element])

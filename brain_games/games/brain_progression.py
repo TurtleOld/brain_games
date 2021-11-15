@@ -31,5 +31,5 @@ def get_game_round():
 
     answer = get_progression(initial_element, diff)
     question = get_string_from_progression(answer, hidden_element)
-    
+
     return str(question), str(answer[hidden_element])

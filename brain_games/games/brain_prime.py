@@ -9,10 +9,12 @@ END_NUMBER = 100
 
 def is_prime(random_number):
     """Проверка на простое число."""
+    if random_number < 2:
+        return False
     for i in range(2, random_number // 2):
         if random_number % i == 0:
             return False
-        return True
+    return True
 
 
 def get_game_round():

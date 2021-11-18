@@ -17,8 +17,8 @@ def get_progression(initial_element, diff):
 def get_string_from_progression(progression, hidden_element):
     """Получение строкового представления прогрессии."""
     string_progression = []
-    for index in range(0, LENGTH_PROGRESSION):
-        string_progression.append(str(progression[index]))
+    for element in progression:
+        string_progression.append(str(element))
     string_progression[hidden_element] = '..'
     return " ".join(string_progression)
 

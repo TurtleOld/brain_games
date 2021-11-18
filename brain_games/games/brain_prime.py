@@ -22,6 +22,6 @@ def is_prime(random_number):
 def get_game_round():
     """Функция игры."""
     random_number = randint(START_NUMBER, END_NUMBER)
-    answer = is_prime(random_number)
+    answer = 'yes' if is_prime(random_number) else 'no
 
     return str(random_number), str(answer)

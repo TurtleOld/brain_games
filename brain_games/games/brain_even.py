@@ -7,7 +7,7 @@ GAME_DESCRIPTION = 'Answer \"yes\" if the number is even, ' \
                    'otherwise answer \"no\".'
 
 
-ddef is_even(random_number):
+def is_even(random_number):
     """Проверка на чётность."""
     if random_number % 2 == 0:
         return True

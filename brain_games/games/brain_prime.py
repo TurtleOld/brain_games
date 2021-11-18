@@ -14,10 +14,9 @@ def is_prime(random_number):
         if random_number % i == 0:
             number = 1
     if number <= 0:
-        answer = 'yes'
+        return True
     else:
-        answer = 'no'
-    return answer
+        return False
 
 
 def get_game_round():

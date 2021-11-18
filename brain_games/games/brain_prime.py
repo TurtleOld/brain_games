@@ -9,7 +9,7 @@ END_NUMBER = 100
 
 def is_prime(random_number):
     """Проверка на простое число."""
-    for i in range(1, random_number // 2 + 1):
+    for i in range(2, random_number):
         if random_number % i == 0:
             return False
         return True

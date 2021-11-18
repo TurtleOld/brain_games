@@ -22,6 +22,6 @@ def get_game_round():
     random_num2 = randint(START_NUMBER, END_NUMBER)
 
     question = '{0} {1}'.format(random_num1, random_num2)
-    answer = is_gcd(random_num1, random_num2)
+    answer = get_gcd(random_num1, random_num2)
 
     return str(question), str(answer)

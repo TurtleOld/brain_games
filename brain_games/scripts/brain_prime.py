@@ -5,7 +5,7 @@ from brain_games.games import brain_prime
 
 def main():
     """Запускаем игру на проверку простого числа."""
-    get_engine_of_games(brain_prime)
+    run_engine_of_games(brain_prime)
 
 
 if __name__ == '__main__':

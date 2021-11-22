@@ -30,7 +30,8 @@ def get_game_round():
     """Функция игры."""
     initial_element = randint(MIN_NUMBER_RANDOM, LENGTH_PROGRESSION)
     diff = randint(FIRST_DIFF_PROGRESSION, LENGTH_PROGRESSION)
-    hidden_element = randint(MIN_HIDDEN_NUMBER, LENGTH_PROGRESSION - MIN_NUMBER_RANDOM)
+    hidden_element = randint(MIN_HIDDEN_NUMBER, 
+                             LENGTH_PROGRESSION - MIN_NUMBER_RANDOM)
 
     answer = get_progression(initial_element, diff, LENGTH_PROGRESSION)
     question = get_string_from_progression(answer, hidden_element)

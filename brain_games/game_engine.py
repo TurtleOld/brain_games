@@ -17,7 +17,7 @@ def get_user_name():
     return user_name
 
 
-def get_engine_of_games(game):
+def run_engine_of_games(game):
     """Движок игры."""
     welcome_user()
     user_name = get_user_name()

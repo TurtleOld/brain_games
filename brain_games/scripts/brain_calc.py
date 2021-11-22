@@ -5,7 +5,7 @@ from brain_games.games import brain_calc
 
 def main():
     """Запускаем игру Калькулятор."""
-    get_engine_of_games(brain_calc)
+    run_engine_of_games(brain_calc)
 
 
 if __name__ == '__main__':

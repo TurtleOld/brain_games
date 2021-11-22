@@ -9,10 +9,7 @@ GAME_DESCRIPTION = 'Answer \"yes\" if the number is even, ' \
 
 def is_even(random_number):
     """Проверка на чётность."""
-    if random_number % 2 == 0:
-        return True
-    else:
-        return False
+    return random_number % 2 == 0
 
 
 def get_game_round():
